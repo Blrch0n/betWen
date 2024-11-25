@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Image from "next/image";
 import Footer from "../components/Footer";
 import { useCart } from "../context/CartContext";
 import styles from "../styles/Cart.module.scss";
@@ -15,7 +16,12 @@ const Cart = () => {
           <ul>
             {cart.map((item, index) => (
               <li key={index}>
-                <img src={item.image} alt={item.name} />
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  width={150}
+                  height={150}
+                />
                 <div>
                   <h3>{item.name}</h3>
                   <p>{item.price}₮</p>

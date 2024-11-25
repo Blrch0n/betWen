@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -30,7 +31,12 @@ const FeaturedCarousel = ({ products }) => {
         {products.map((product) => (
           <SwiperSlide key={product.id}>
             <div className={styles.card}>
-              <img src={product.image} alt={product.name} />
+              <Image
+                src={product.image}
+                alt={product.name}
+                width={150}
+                height={150}
+              />
               <h3>{product.name}</h3>
               <p>{product.description}</p>
               <p className={styles.price}>{product.price}</p>

@@ -1,0 +1,101 @@
+.contact {
+  text-align: center;
+  padding: 2rem;
+
+  /* Hero Section */
+  .hero {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+  }
+
+  /* Contact Info Section */
+  .info {
+    margin: 2rem 0;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #343a40;
+
+        strong {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  /* Form Section */
+  .form {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+      }
+
+      input,
+      textarea {
+        margin-bottom: 1rem;
+        padding: 0.8rem;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+        transition: border-color 0.3s;
+
+        &:focus {
+          border-color: #28a745;
+        }
+      }
+
+      button {
+        background-color: #28a745;
+        color: white;
+        padding: 0.8rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #218838;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,213 @@
+.main {
+  text-align: center;
+  padding: 2rem;
+
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(
+      135deg,
+      #28a745,
+      #56d879
+    ); /* Gradient background */
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h1 {
+      font-size: 2.8rem;
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    button {
+      background-color: white;
+      color: #28a745;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+
+      &:hover {
+        background-color: #f8f9fa;
+        transform: translateY(-2px); /* Slight lift on hover */
+      }
+    }
+  }
+
+  /* Features Section */
+  .features {
+    margin: 3rem 0;
+
+    h2 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #343a40;
+    }
+
+    .featureGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+
+      div {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+          color: #343a40;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #6c757d;
+        }
+      }
+    }
+  }
+
+  /* Popular Dishes Section */
+  .popular {
+    margin: 3rem 0;
+
+    h2 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #343a40;
+    }
+
+    .productGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+
+      .card {
+        background-color: #ffffff;
+        border: 1px solid #e9ecef;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+          border-radius: 5px;
+          margin-bottom: 1rem;
+        }
+
+        h3 {
+          font-size: 1.3rem;
+          color: #343a40;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #6c757d;
+
+          &.price {
+            font-size: 1.2rem;
+            color: #28a745;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin: 3rem 0;
+
+    h2 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #343a40;
+    }
+
+    .testimonialGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+
+      div {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+          font-style: italic;
+          color: #6c757d;
+          margin-bottom: 1rem;
+        }
+
+        h4 {
+          font-weight: bold;
+          color: #343a40;
+        }
+      }
+    }
+  }
+
+  /* Call-to-Action Section */
+  .cta {
+    margin: 3rem 0;
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #343a40;
+    }
+
+    button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+
+      &:hover {
+        background-color: #218838;
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

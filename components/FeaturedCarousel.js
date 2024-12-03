@@ -33,13 +33,19 @@ const FeaturedCarousel = ({ products }) => {
             <div className={styles.card}>
               <Image
                 src={product.image}
-                alt={product.name}
+                alt={product.name || "Product image"} // Added fallback for alt attribute
                 width={150}
                 height={150}
+                priority={true} // Improves performance by preloading images
               />
-              <h3>{product.name}</h3>
-              <p>{product.description}</p>
-              <p className={styles.price}>{product.price}</p>
+              <h3>{product.name || "Unnamed Product"}</h3>{" "}
+              {/* Added fallback for product name */}
+              <p>{product.description || "No description available."}</p>{" "}
+              {/* Added fallback for product description */}
+              <p className={styles.price}>
+                {product.price ? `$${product.price}` : "Price not available"}{" "}
+                {/* Added fallback for price */}
+              </p>
             </div>
           </SwiperSlide>
         ))}

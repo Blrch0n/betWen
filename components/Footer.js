@@ -1,9 +1,12 @@
 import styles from "../styles/Footer.module.scss";
 
 const Footer = () => (
-  <footer className={styles.footer}>
+  <footer className={styles.footer} aria-label="Footer">
     <div className={styles.container}>
-      <p>© 2024 Ширхэгийн Хоол. Бүх эрх хуулиар хамгаалагдсан.</p>
+      <p>
+        &copy; 2024 <strong>Ширхэгийн Хоол</strong>. Бүх эрх хуулиар
+        хамгаалагдсан.
+      </p>
     </div>
   </footer>
 );

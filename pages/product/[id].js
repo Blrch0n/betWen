@@ -4,13 +4,29 @@ import Footer from "../../components/Footer";
 import products from "../../data/products.json";
 import { motion } from "framer-motion";
 import styles from "../../styles/Product.module.scss";
+import { useEffect, useState } from "react";
 
 const ProductDetail = () => {
   const router = useRouter();
   const { id } = router.query;
-  const product = products.find((item) => item.id === parseInt(id));
+  const [product, setProduct] = useState(null);
 
-  if (!product) return <p>Бүтээгдэхүүн олдсонгүй.</p>;
+  useEffect(() => {
+    if (id) {
+      const foundProduct = products.find((item) => item.id === parseInt(id));
+      setProduct(foundProduct);
+    }
+  }, [id]);
+
+  if (!id) {
+    // Loading state to handle cases when the query isn't available yet
+    return <p>Ачааллаж байна...</p>;
+  }
+
+  if (!product) {
+    // Display a fallback message for an invalid or missing product
+    return <p>Бүтээгдэхүүн олдсонгүй.</p>;
+  }
 
   return (
     <>
@@ -52,7 +68,7 @@ const ProductDetail = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
         >
-          {product.price}
+          {product.price}₮
         </motion.p>
 
         {/* Animate the button */}

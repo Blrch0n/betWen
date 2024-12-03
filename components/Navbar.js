@@ -3,34 +3,42 @@ import Image from "next/image";
 import styles from "../styles/Navbar.module.scss";
 
 const Navbar = () => (
-  <nav className={styles.navbar}>
+  <nav className={styles.navbar} aria-label="Main Navigation">
     <div className={styles.container}>
       {/* Logo Section */}
-      <Link href="/">
+      <Link href="/" aria-label="Ширхэгийн Хоол Home">
         <div className={styles.logo}>
           <Image
             src="/images/logo.png"
-            alt="Ширхэгийн Хоол"
-            width={150} // Adjust the width
-            height={150} // Adjust the height
-            priority={true} // Optimize loading
+            alt="Ширхэгийн Хоол лого"
+            width={150} // Adjust the width if needed
+            height={150} // Adjust the height if needed
+            priority={true} // Optimize loading for performance
           />
         </div>
       </Link>
 
       {/* Navigation Links */}
-      <ul>
+      <ul className={styles.navLinks}>
         <li>
-          <Link href="/">Нүүр</Link>
+          <Link href="/" aria-label="Go to Home Page">
+            Нүүр
+          </Link>
         </li>
         <li>
-          <Link href="/about">Бидний тухай</Link>
+          <Link href="/about" aria-label="Learn About Us">
+            Бидний тухай
+          </Link>
         </li>
         <li>
-          <Link href="/menu">Цэс</Link>
+          <Link href="/menu" aria-label="View the Menu">
+            Цэс
+          </Link>
         </li>
         <li>
-          <Link href="/contact">Холбоо барих</Link>
+          <Link href="/contact" aria-label="Contact Us">
+            Холбоо барих
+          </Link>
         </li>
       </ul>
     </div>

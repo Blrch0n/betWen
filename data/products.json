@@ -2,211 +2,225 @@
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
   },
   {
     "id": 3,
     "name": "Гурвалжин Кимбаб",
-    "price": "4500₮",
+    "price": "2000",
     "description": "Солонгос маягийн кимбаб.",
     "image": "/images/kimbab.jpg"
   },
   {
     "id": 4,
     "name": "Тахианы Хуушуур",
-    "price": "4000₮",
+    "price": "2500",
     "description": "Тахианы махтай хуушуур.",
     "image": "/images/huushuur.jpeg"
   },
   {
     "id": 1,
     "name": "Хөвсгөр Бууз",
-    "price": "5000₮",
+    "price": "1500",
     "description": "Монгол уламжлалт амттай бууз.",
     "image": "/images/buuz.jpg"
   },
   {
     "id": 2,
     "name": "Махтай Пирошки",
-    "price": "3000₮",
+    "price": "3000",
     "description": "Шараад идэхэд тохиромжтой пирошки.",
     "image": "/images/piroshki.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Гурвалжин Кимбаб",
+    "price": "2000",
+    "description": "Солонгос маягийн кимбаб.",
+    "image": "/images/kimbab.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Тахианы Хуушуур",
+    "price": "2500",
+    "description": "Тахианы махтай хуушуур.",
+    "image": "/images/huushuur.jpeg"
   }
 ]
